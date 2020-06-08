@@ -25,4 +25,6 @@ def return_string_array(array)
   new = []
   array.each do|i|
     new << i.to_s
+  end
+  puts new
 end
