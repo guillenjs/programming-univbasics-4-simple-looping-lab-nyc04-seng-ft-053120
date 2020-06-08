@@ -16,5 +16,7 @@ def loop_message_n_times(message, number)
 end
 
 def output_array(array)
-array.each {|i| puts i }
+array.each do |i|
+   puts i
+ end
 end
