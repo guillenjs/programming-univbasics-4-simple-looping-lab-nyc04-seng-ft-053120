@@ -26,5 +26,5 @@ def return_string_array(array)
   array.each do|i|
     new << i.to_s
   end
-  puts new
+  print new
 end
