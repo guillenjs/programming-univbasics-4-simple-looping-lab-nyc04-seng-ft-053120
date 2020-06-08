@@ -20,3 +20,7 @@ array.each do |i|
    puts i
  end
 end
+
+def return_string_array(array)
+  array.collect.to_s
+end
