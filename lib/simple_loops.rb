@@ -22,5 +22,7 @@ array.each do |i|
 end
 
 def return_string_array(array)
-  array.collect.to_s
+  new = []
+  array.each do|i|
+    new << i.to_s
 end
