@@ -17,7 +17,6 @@ end
 
 def output_array(message, number)
   counter = 0
-    binding.pry
   while counter <= number
     puts message(counter)
     counter += 1
