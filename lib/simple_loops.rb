@@ -19,7 +19,7 @@ def output_array(message, number)
   counter = 0
   while counter <= number
     puts message(counter)
-    binding.pry
     counter += 1
+    binding.pry
   end
 end
