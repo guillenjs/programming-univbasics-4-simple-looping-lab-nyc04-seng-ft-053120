@@ -18,7 +18,7 @@ end
 def output_array(message, number)
   counter = 0
   while counter <= number
-    puts message(number)
+    puts message(counter)
     counter += 1
   end
 end
